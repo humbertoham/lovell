@@ -49,26 +49,17 @@ const ContactPage: React.FC = () => {
       {/* Contact Details */}
       <div className="flex flex-col space-y-6 text-xl text-black">
         <motion.a
-          href="tel:+5212211591113"
+          href="tel:+5555006260"
           className="flex items-center  transition-colors"
           initial={{ x: -20, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
           <FiPhone className="mr-4 w-7 h-7" />
-          +52 1 (221) 159-1113
+          +55-55-00-6260
         </motion.a>
 
-        <motion.a
-          href="mailto:Jorgeespino000@gmail.com"
-          className="flex items-center  transition-colors"
-          initial={{ x: 20, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 0.6, duration: 0.5 }}
-        >
-          <FiMail className="mr-4 w-7 h-7" />
-          Jorgeespino000@gmail.com
-        </motion.a>
+       
       </div>
     </motion.div>
   );
